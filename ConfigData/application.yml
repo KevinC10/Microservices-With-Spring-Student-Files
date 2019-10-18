@@ -32,5 +32,5 @@ spring:
 words: boat,book,vote,seat,backpack,partition,groundhog
 
 ---
-message-everis: Se obtuvo el listado de personas exitosamente
+message: Se obtuvo el listado de personas exitosamente
   
