@@ -1,0 +1,35 @@
+---
+spring:
+  profiles:
+    active: everis
+  application:
+    name: Ejercicio-1
+  cloud:
+    config:
+      uri: http://localhost:8001
+server:
+  port: 8002
+
+
+list:
+  persons:
+    -
+      dni: 58968596 
+      nombre: Manuel 
+      apellido: Martinez
+    -
+      dni: 36968596 
+      nombre: Martin
+      apellido: Lopez
+    -
+      dni: 12468596 
+      nombre: Alvaro
+      apellido: Urbina
+    -
+      dni: 789968596 
+      nombre: Karla
+      apellido: Jara
+    -
+      dni: 56368855
+      nombre: Jesus
+      apellido: Cabrejos
